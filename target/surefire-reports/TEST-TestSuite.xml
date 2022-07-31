@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="38.612" tests="7" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="18+36-2087"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\DELL\eclipse-workspace\iNetBankingV1"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\DELL\eclipse-workspace\iNetBankingV1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="18+36-2087"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\DELL\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files\Convergent_Science\\CONVERGE\3.0.16\bin\mpi\intel64\libfabric\bin;C:\Program Files\Convergent_Science\\CONVERGE\3.0.16\bin\mpi\intel64\bin\release;C:\Program Files\Convergent_Science\\CONVERGE\3.0.16\bin\mpi\intel64\bin;C:\Program Files\Convergent_Science\\CONVERGE\3.0.16\bin\intel64_win\compiler;C:\Program Files\Convergent_Science\\CONVERGE\3.0.16\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-18\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\MATLAB\R2022a\bin;C:\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\Programs\Python\Python39;;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.8.6-bin\apache-maven-3.8.6/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="62.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.8.6-bin\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\DELL"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="18"/>
+    <property name="user.name" value="DELL"/>
+    <property name="java.class.path" value="C:\apache-maven-3.8.6-bin\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="18"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\apache-maven-3.8.6-bin\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-03-22"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="loginTest" classname="com.iNetBanking.testCases.TC_LoginTest_001" time="4.297"/>
+  <testcase name="loginDDT" classname="com.iNetBanking.testCases.TC_LoginDDT_002" time="13.519"/>
+  <testcase name="loginDDT" classname="com.iNetBanking.testCases.TC_LoginDDT_002" time="7.787">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.iNetBanking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:32)
+</failure>
+    <system-out><![CDATA[ INFO [main] (TC_LoginDDT_002.java:20)- user name provide
+ INFO [main] (TC_LoginDDT_002.java:22)- password provided
+]]></system-out>
+  </testcase>
+  <testcase name="loginDDT" classname="com.iNetBanking.testCases.TC_LoginDDT_002" time="8.703">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.iNetBanking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:32)
+</failure>
+    <system-out><![CDATA[ INFO [main] (TC_LoginDDT_002.java:20)- user name provide
+ INFO [main] (TC_LoginDDT_002.java:22)- password provided
+]]></system-out>
+  </testcase>
+  <testcase name="loginDDT" classname="com.iNetBanking.testCases.TC_LoginDDT_002" time="15.367"/>
+  <testcase name="loginDDT" classname="com.iNetBanking.testCases.TC_LoginDDT_002" time="6.151">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.iNetBanking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:32)
+</failure>
+    <system-out><![CDATA[ INFO [main] (TC_LoginDDT_002.java:20)- user name provide
+ INFO [main] (TC_LoginDDT_002.java:22)- password provided
+]]></system-out>
+  </testcase>
+  <testcase name="addNewCustomer" classname="com.iNetBanking.testCases.TC_AddCustomer_003" time="20.796"/>
+</testsuite>
